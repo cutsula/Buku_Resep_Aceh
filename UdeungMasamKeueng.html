@@ -6,70 +6,104 @@
     <title>Udeung Masam Keueng</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            background-color: #f8f9fa;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f0f0f5;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 700px;
+            width: 100%;
         }
         h1 {
-            color: #dc3545;
+            color: #ff6347;
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
         }
         h2 {
-            color: #28a745;
+            color: #4682b4;
+            font-size: 1.8rem;
+            margin-bottom: 15px;
         }
         ul {
-            list-style-type: none;
-            padding: 0;
+            list-style-type: disc;
+            margin-left: 20px;
         }
         li {
-            margin: 5px 0;
+            margin: 8px 0;
+            font-size: 1rem;
+            color: #333;
         }
         .step {
-            margin: 10px 0;
+            margin: 15px 0;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-left: 5px solid #4682b4;
+            border-radius: 5px;
+            font-size: 1.1rem;
+        }
+        .step strong {
+            color: #ff6347;
+            font-size: 1.3rem;
+        }
+        .bumbu-title {
+            font-weight: bold;
+            color: #555;
         }
     </style>
 </head>
 <body>
 
-    <h1>Udeung Masam Keueng</h1>
+    <div class="container">
+        <h1>Udeung Masam Keueng</h1>
 
-    <h2>Bahan-bahan</h2>
-    <ul>
-        <li>400 gram udang ukuran agak sedang</li>
-        <li>1 buah jeruk nipis</li>
-        <li>Secukupnya garam, gula dan kaldu bubuk</li>
-        <li>Secukupnya kacang panjang (boleh skip)</li>
-        <li><strong>Bumbu Aromatik:</strong></li>
+        <h2>Bahan-bahan</h2>
         <ul>
-            <li>1-2 tangkai daun kari</li>
-            <li>4 lembar daun jeruk</li>
-            <li>4 buah belimbing wuluh</li>
-            <li>3 buah asam sunti</li>
-            <li>8 buah cabe rawit merah</li>
-            <li>5 buah cabe hijau, potong-potong (saya skip krn ga ada)</li>
+            <li>400 gram udang ukuran agak sedang</li>
+            <li>1 buah jeruk nipis</li>
+            <li>Secukupnya garam, gula dan kaldu bubuk</li>
+            <li>Secukupnya kacang panjang (boleh skip)</li>
+            <li class="bumbu-title">Bumbu Aromatik:</li>
+            <ul>
+                <li>1-2 tangkai daun kari</li>
+                <li>4 lembar daun jeruk</li>
+                <li>4 buah belimbing wuluh</li>
+                <li>3 buah asam sunti</li>
+                <li>8 buah cabe rawit merah</li>
+                <li>5 buah cabe hijau, potong-potong (saya skip krn ga ada)</li>
+            </ul>
+            <li class="bumbu-title">Bumbu halus:</li>
+            <ul>
+                <li>8 siung bawang merah</li>
+                <li>4 siung bawang putih</li>
+                <li>10 buah cabe rawit hijau (sy ganti cabe keriting merah dan sedikit cabe rawit merah)</li>
+                <li>1 ruas kunyit</li>
+                <li>1/2 merica bubuk</li>
+            </ul>
         </ul>
-        <li><strong>Bumbu halus:</strong></li>
-        <ul>
-            <li>8 siung bawang merah</li>
-            <li>4 siung bawang putih</li>
-            <li>10 buah cabe rawit hijau (sy ganti cabe keriting merah dan sedikit cabe rawit merah)</li>
-            <li>1 ruas kunyit</li>
-            <li>1/2 merica bubuk</li>
-        </ul>
-    </ul>
 
-    <h2>Cara Membuat</h2>
-    <div class="step">
-        <strong>1.</strong> Siapkan semua bahan. Cuci udang lalu beri perasan jeruk nipis. Marinate bumbu halus bersama udang selama 15 menit.
-    </div>
-    <div class="step">
-        <strong>2.</strong> Siapkan wajan, masukkan udang, daun kari, daun jeruk, dan asam sunti. Beri air 300 ml lalu masak sampai mendidih.
-    </div>
-    <div class="step">
-        <strong>3.</strong> Setelah itu masukkan belimbing wuluh, kacang panjang, dan garam. Biarkan sampai kacang panjang masak, cabe hijau, dan cabe rawit. Boleh tambah kaldu jamur.
-    </div>
-    <div class="step">
-        <strong>4.</strong> Bila sudah matang, siap disajikan. Rasanya asem gurih segar nikmat! 🤩
+        <h2>Cara Membuat</h2>
+        <div class="step">
+            <strong>1.</strong> Siapkan semua bahan. Cuci udang lalu beri perasan jeruk nipis. Marinate bumbu halus bersama udang selama 15 menit.
+        </div>
+        <div class="step">
+            <strong>2.</strong> Siapkan wajan, masukkan udang, daun kari, daun jeruk, dan asam sunti. Beri air 300 ml lalu masak sampai mendidih.
+        </div>
+        <div class="step">
+            <strong>3.</strong> Setelah itu masukkan belimbing wuluh, kacang panjang, dan garam. Biarkan sampai kacang panjang masak, cabe hijau, dan cabe rawit. Boleh tambah kaldu jamur.
+        </div>
+        <div class="step">
+            <strong>4.</strong> Bila sudah matang, siap disajikan. Rasanya asem gurih segar nikmat! 🤩
+        </div>
     </div>
 
 </body>
